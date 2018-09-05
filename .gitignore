@@ -1,0 +1,27 @@
+# OS X
+.DS_Store *
+¿Icono?
+._ *
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+.directorio
+* ~
+
+
+# npm
+node_modules
+package-lock.json
+*.Iniciar sesión
+* .gz
+
+
+# Overol
+cobertura
+
+# Benchmarking
+puntos de referencia / gráficos
