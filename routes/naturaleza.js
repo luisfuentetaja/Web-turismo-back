@@ -10,7 +10,7 @@ router.get('/', (req, res)=>{
  })
 })
 
-router.get('/cat/:categoria', (req, res)=>{
+router.get('/categoria/:categoria', (req, res)=>{
     console.log('error')
    modelNaturaleza.getAllCategoria(req.params.categoria, (err, rows)=>{
        if (err) return console.log(rows)
